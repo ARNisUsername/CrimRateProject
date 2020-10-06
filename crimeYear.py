@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+#Discovers crime rates from each year and averages it out on a graph
+
 df = pd.read_csv('state_crime.csv')
 
 x = [i for i in range(1960,2013)]
