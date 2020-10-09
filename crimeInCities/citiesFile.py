@@ -28,7 +28,6 @@ theParties['Washington'] = 'Democrat'
 theParties = dict(sorted(theParties.items()))
 valuesParties = list(theParties.values())
 
-
 cities = pd.read_csv('citiesCrime.csv')
 partiesForFile = ['empty', 'empty']
 
