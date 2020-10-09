@@ -41,18 +41,13 @@ for state in cities['State'][2:]:
         partiesForFile.append('Democrat')
 
 cities['party'] = partiesForFile
-
 cities = cities[2:]
-
 
 cities['Property crime'] = pd.to_numeric(cities['Property crime'])
 cities['Violent crime'] = pd.to_numeric(cities['Violent crime'])
 
-
 colors = ['#CF2121', '#2155CF']
 sns.set_palette(sns.color_palette(colors))
-
-
 
 sns.scatterplot(x='Property crime', y='Violent crime', data=cities, hue='party')
 
