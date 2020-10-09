@@ -24,7 +24,6 @@ theParties['Montana'] = 'Republican'
 theParties['New York'] = 'Democrat'
 theParties['Washington'] = 'Democrat'
 
-
 theParties = dict(sorted(theParties.items()))
 valuesParties = list(theParties.values())
 
